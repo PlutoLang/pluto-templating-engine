@@ -1,6 +1,6 @@
 # pluto-templating-engine
 
-A Twig-like templating engine for Pluto.
+A templating engine for Pluto.
 
 ```lua
 local TE = require "templating-engine"
@@ -17,3 +17,5 @@ user = { name = "TheLegend27" }
 
 io.write(TE.render(data)) --> Hello, TheLegend27!
 ```
+
+The templating syntax is the same as Twig's, but the functionality is more akin to PHP — giving you access to all of Pluto. So, any text processed by this is effectively Pluto source code just with a different packaging and different output semantics.
