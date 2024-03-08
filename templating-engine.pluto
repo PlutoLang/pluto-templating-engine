@@ -1,3 +1,5 @@
+-- https://github.com/PlutoLang/pluto-templating-engine
+
 export function render(data)
 	local code = "local output = \"\"\n"
 	local j = 1
